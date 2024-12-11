@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jerry.Z</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/fz_old.jpg" alt="Fu Zhang" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">ZHANG FU</h1>
+          <h1 class="name" title="Richard hanrick">张 辅</h1>
+
+          <p class="title">Researcher</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:jerry-fu.zhang@polyu.edu.hk" class="contact-link">jerry-fu.zhang<br/>@polyu.edu.hk</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Workplace</p>
+
+              <address>The Hong Kong Polytechnic University</address>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Hong Kong, China</address>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="alarm-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">This website Last updated at</p>
+
+              <time datetime="2024-12-12">12 December, 2024</time>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Writing</button>
+          </li>
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Reserved1</button>
+          </li>
+          
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Reserved2</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Reserved3</button>
+          </li> -->
+
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Greetings from Zhang Fu (family name in front),张辅 in chinese hanzi, or you may call me Jerry.  
+            👋 I explore and research in the field of human-computer interactions with multidisciplinary experiences 
+            in computer science, electronic engineering and software engineering. I graduated from King's College London 
+            with a first BEng and a distinction MSc degree. Followed by a software engineer career at Huawei. 
+            I am currently employed in the Hong Kong Polytechnic University as a research assistant.
+          </p>
+
+        </section>
+
+
+        <!--
+          - researchIns
+        -->
+
+        <section class="researchIns">
+
+          <h3 class="h3 researchIns-title">Research Interests</h3>
+
+          <ul class="researchIns-list">
+
+            <li class="researchIns-item">
+
+              <div class="researchIns-icon-box">
+                <img src="./assets/images/medical-outline.svg" alt="design icon" width="40">
+              </div>
+
+              <div class="researchIns-content-box">
+                <h4 class="h4 researchIns-item-title">HCI In Medcine</h4>
+
+                <p class="researchIns-item-text">
+                  Computer-aided solution for rehabilitation, treatment, treatment adherence and diagnose of dieases.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="researchIns-item">
+
+              <div class="researchIns-icon-box">
+                <img src="./assets/images/heart-outline.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="researchIns-content-box">
+                <h4 class="h4 researchIns-item-title">HCI in Mental Health</h4>
+
+                <p class="researchIns-item-text">
+                  Computer-assisted intervention for individuals with mental health disorders.
+                </p>
+              </div>
+
+            </li>
+
+  
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - news
+        -->
+
+        <section class="news">
+
+          <h3 class="h3 news-title">News</h3>
+
+          <ul class="news-list has-scrollbar">
+
+            <li class="news-item">
+              <div class="content-card" data-news-item>
+                <time datetime="2024-12-12" id="data-news-date" >12 December, 2024</time>
+                <h4 class="h4 news-item-title" data-news-title>Website goes online!</h4>
+
+                <div class="news-text" data-news-text>
+                  <p>
+                    This website is now online!
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - news modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="news-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+            </div>
+
+            <div class="modal-content">
+              <h4 class="h3 modal-title" data-modal-title>Example Title</h4>
+              <time datetime="2021-06-14" id="data-modal-date">14 June, 2021</time>
+
+
+              
+              <div data-modal-text>
+                <p>
+                  Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+            </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 ">Msc Advanced Computing</h4>
+              <h4 class="h4 timeline-item-title">King's College London</h4>
+
+              <span>2020 — 2021</span>
+
+              <p class="timeline-text">
+                Master of Scence in Adcanced Computing with distinction.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 ">BEng Electronic and Information Engineering</h4>
+              <h4 class="h4 timeline-item-title">King's College London</h4>
+
+              <span>2017 — 2020</span>
+
+              <p class="timeline-text">
+                Bachelor of Engineering in Electronic and Information Engineering with first class honours.
+              </p>
+
+            </li>
+
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 ">Research Assistant</h4>
+              <h4 class="h4 timeline-item-title">The Hong Kong Polytechnic University</h4>
+    
+              <span>Aug 2024 — Present</span>
+
+              <p class="timeline-text">
+
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 ">Software Engineer</h4>
+              <h4 class="h4 timeline-item-title">Huawei Technologies Co., Ltd. </h4>
+    
+              <span>Dec 2021 — May 2023</span>
+
+              <p class="timeline-text">
+
+              </p>
+
+            </li>
+
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web design</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Graphic design</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Branding</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">WordPress</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="writing" data-page="writing">
+
+        <header>
+          <h2 class="h2 article-title">Writing</h2>
+        </header>
+
+      </article>
+
+
+
+      <!-- <article class="reserved1" data-page="reserved1">
+
+        <header>
+          <h2 class="h2 article-title">Reserved1</h2>
+        </header>
+
+
+      </article>
+
+
+      <article class="reserved2" data-page="reserved2">
+
+        <header>
+          <h2 class="h2 article-title">Reserved2</h2>
+        </header>
+
+
+      </article>
+
+
+      <article class="reserved3" data-page="reserved3">
+
+        <header>
+          <h2 class="h2 article-title">Reserved3</h2>
+        </header>
+
+
+      </article> -->
+
+
+
+
+
+    
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
