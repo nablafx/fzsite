@@ -171,7 +171,9 @@ body { background: var(--white-2); }
   text-align: justify ;
   color: var(--black-1);
   text-align: center; /* Center the text inside the footer */
-  width: 100%;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
   margin-bottom: 70px;
   display: block;
 }
