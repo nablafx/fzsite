@@ -134,7 +134,7 @@ a { text-decoration: none; }
 
 li { list-style: none; }
 
-img,ion-icon, a, button, time, span { display: block; }
+img,ion-icon, button, time, span { display: block; }
 .avatar-box img { width: 80px; border-radius: 100px; }
 
 
@@ -163,6 +163,18 @@ input, textarea {
 html { font-family: var(--ff-poppins); }
 
 body { background: var(--white-2); }
+
+
+.footer{
+  bottom: 5px;
+  font-size: xx-small;
+  text-align: justify ;
+  color: var(--black-1);
+  text-align: center; /* Center the text inside the footer */
+  width: 100%;
+  margin-bottom: 70px;
+  display: block;
+}
 
 
 
