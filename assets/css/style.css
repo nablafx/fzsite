@@ -101,11 +101,11 @@
    * shadow
    */
   
-  --shadow-1: -4px 8px 24px hsla(148, 79%, 89%, 0.842);
-  --shadow-2: 0 16px 30px hsla(148, 79%, 89%, 0.842);
-  --shadow-3: 0 16px 40px hsla(148, 79%, 89%, 0.842);
-  --shadow-4: 0 25px 50px hsla(148, 79%, 89%, 0.842);
-  --shadow-5: 0 24px 80px hsla(148, 79%, 89%, 0.842);
+  --shadow-1: -4px 8px 24px hsla(160, 20%, 80%, 0.842);
+  --shadow-2: 0 16px 30px hsla(160, 20%, 80%, 0.842);
+  --shadow-3: 0 16px 40px hsla(160, 20%, 80%, 0.842);
+  --shadow-4: 0 25px 50px hsla(160, 20%, 80%, 0.842);
+  --shadow-5: 0 24px 80px hsla(160, 20%, 80%, 0.842);
 
   /**
    * transition
@@ -212,7 +212,7 @@ article {
   justify-content: center;
   align-items: center;
   font-size: 16px;
-  color: var(--red-1);
+  color: green;
   z-index: 1;
 }
 
@@ -361,8 +361,8 @@ main {
 }
 
 .info-content .title {
-  color: var(--black-3);
-  background: rgba(130, 250, 130, 0.831);
+  color: white;
+  background: rgba(131, 153, 168, 0.831);
   font-size: var(--fs-8);
   font-weight: var(--fw-300);
   width: max-content;
@@ -392,10 +392,10 @@ main {
 }
 
 .info_more-btn:hover,
-.info_more-btn:focus { background: var(--bg-gradient-red-1); }
+.info_more-btn:focus { background: white; }
 
 .info_more-btn:hover::before,
-.info_more-btn:focus::before { background: var(--bg-gradient-black-4); }
+.info_more-btn:focus::before { background: white; }
 
 .info_more-btn span { display: none; }
 
@@ -823,7 +823,7 @@ main {
   left: -33px;
   height: 6px;
   width: 6px;
-  background: var(--text-gradient-yellow);
+  background: black;
   border-radius: 50%;
   box-shadow: 0 0 0 4px var(--white-1);
 }
