@@ -50,8 +50,8 @@
   );
   --text-gradient-yellow: linear-gradient(
     to right, 
-    hsl(45, 100%, 72%), 
-    hsl(35, 100%, 68%)
+    hsl(52, 24%, 90%),  
+    hsl(10, 64%, 90%)  
   );
 
   /* solid */
@@ -212,7 +212,7 @@ article {
   justify-content: center;
   align-items: center;
   font-size: 16px;
-  color: green;
+  color: #BF9D9D;
   z-index: 1;
 }
 
@@ -497,7 +497,7 @@ main {
 .navbar-link:hover,
 .navbar-link:focus { color: var(--black-2); }
 
-.navbar-link.active { color: var(--red-1); }
+.navbar-link.active { color: #14b17d; }
 
 
 
@@ -801,7 +801,7 @@ main {
 }
 
 .timeline-list span {
-  color: var(--vegas-gold);
+  color: #14b17d;
   font-weight: var(--fw-400);
   line-height: 1.6;
 }
@@ -823,9 +823,9 @@ main {
   left: -33px;
   height: 6px;
   width: 6px;
-  background: black;
+  background: #DBC09E;
   border-radius: 50%;
-  box-shadow: 0 0 0 4px var(--white-1);
+  /* box-shadow: 0 0 0 4px var(--white-1); */
 }
 
 .timeline-text {
